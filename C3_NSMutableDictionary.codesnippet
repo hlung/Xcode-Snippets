@@ -3,22 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewWillDisappear</string>
+	<string>NSMutableDictionary</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-    &lt;#code#&gt;
-}</string>
+	<string>NSMutableDictionary *m = [NSMutableDictionary dictionary];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9E928079-A102-4ADE-949A-4E3C2904BEF8</string>
+	<string>25FA3F51-02DD-458E-BB8D-1DFB65C4A989</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>(void)viewWillDisappear:(BOOL)animated</string>
+	<string>NSMutableDictionary dictionary</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
