@@ -6,8 +6,8 @@ My collection of useful Xcode code snippets! It has been a great time-saver for 
 
 - Go to your Xcode user's code snippets directory, at `~/Library/Developer/Xcode/UserData/CodeSnippets`. Create folder if it doesn't exist.
 - In that folder, you can either:
-  * Download ZIP of this repo, extract `.codesnippet` files to that folder, OR...
-  * Run `git init`, then `git pull https://github.com/hlung/Xcode-Snippets` to that folder.
+  * run `git init`, then `git pull https://github.com/hlung/Xcode-Snippets` to that folder (recommended, easy update), OR...
+  * download ZIP of this repo, extract `.codesnippet` files to that folder
 - Restart Xcode.
 - Enjoy!
 
