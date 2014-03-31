@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>stack</string>
+	<string>NSLog</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"Call Stack: %@", [NSThread callStackSymbols]);</string>
+	<string>NSLog(@"&lt;#size#&gt;: %@", NSStringFromCGSize(&lt;#size#&gt;));</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AF889C8B-809F-4BB6-9AC0-A97D76399C44</string>
+	<string>20722A40-4F5C-462E-8AE4-E789A402C9DE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>NSLog call stack</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Log Stack Trace</string>
+	<string>NSLog(@"size: %@", NSStringFromCGSize(size));</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

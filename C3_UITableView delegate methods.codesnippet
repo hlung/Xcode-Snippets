@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark UITableView dataSource
+	<string>#pragma mark UITableView
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return &lt;#1#&gt;;
@@ -20,8 +20,8 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *cellIdentifier = @"&lt;#CellClass#&gt;";
-    &lt;#CellClass#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    static NSString *cellId = @"&lt;#CellClass#&gt;";
+    &lt;#CellClass#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:cellId forIndexPath:indexPath];
     [cell setupWithObject:&lt;#array#&gt;[indexPath.row]];
     return cell;
 }
@@ -43,8 +43,6 @@
     }
 }
 
-#pragma mark UITableView delegate
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     &lt;#do stuff#&gt;
 }</string>
@@ -55,7 +53,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>delegate and dataSource</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UITableView snippet</string>
+	<string>UITableView delegate methods</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
