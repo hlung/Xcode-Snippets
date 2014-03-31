@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>__weak</string>
+	<string>if</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak typeof(self) weakSelf = self;</string>
+	<string>if ([&lt;#obj#&gt; isKindOfClass:&lt;#class#&gt;]) {
+    &lt;#statements#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D97C267A-E146-4FAC-9A3B-7F8C456DA53F</string>
+	<string>CAAFBB0B-C5D9-4C97-9FC9-A016A1D5C768</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Declare weak referece to self. To avoid retain cycle in blocks.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weakSelf</string>
+	<string>If Statement -isKindOfClass:</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
