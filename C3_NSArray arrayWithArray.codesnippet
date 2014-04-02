@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>appledoc</string>
+	<string>arrayWithArray</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#text#&gt; */</string>
+	<string>[NSArray arrayWithArray:&lt;#array#&gt;]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1CE1D306-205E-4F57-840C-FB4CC23CABB9</string>
+	<string>076B76E3-B0BA-4FD0-BDA5-9FE70F04EEEE</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Comment in appledoc style</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>/** appledoc comment */</string>
+	<string>NSArray arrayWithArray</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
