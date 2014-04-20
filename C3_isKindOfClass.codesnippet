@@ -9,8 +9,8 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if ([&lt;#object#&gt; isKindOfClass:[&lt;#Class#&gt; class]]) {
-    
+	<string>if ([&lt;#obj#&gt; isKindOfClass:[&lt;#Class#&gt; class]]) {
+    &lt;#statement#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B63BF9B7-DC0F-4646-AECD-2020FD16FD48</string>
