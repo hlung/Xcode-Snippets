@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>if</string>
+	<string>import</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if ([&lt;#obj#&gt; isKindOfClass:&lt;#class#&gt;]) {
-    &lt;#statements#&gt;
-}</string>
+	<string>#import "&lt;#File#&gt;.h"</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CAAFBB0B-C5D9-4C97-9FC9-A016A1D5C768</string>
+	<string>E27DCD5F-E327-4E53-ACAA-495A75D09323</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>If Statement -isKindOfClass:</string>
+	<string>#import "file.h"</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
