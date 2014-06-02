@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (NSString*)description {
-    return [NSString stringWithFormat:@"[&lt;%@&gt; id:%d sender:%@", NSStringFromClass(self.class), &lt;#body#&gt;, &lt;#sender#&gt;];
+    return [NSString stringWithFormat:@"[&lt;%@&gt; id:%d sender:%@]", NSStringFromClass(self.class), &lt;#body#&gt;, &lt;#sender#&gt;];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>326C8BA9-0BCB-48F2-9C86-1429EBD32540</string>
