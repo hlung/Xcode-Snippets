@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>static</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>static NSDictionary *remoteTypeDict = nil;
++ (NSDictionary*)remoteTypeDict {
+    @synchronized(self) {
+        if(remoteTypeDict==nil) {
+            remoteTypeDict= @{@"tv":@(FGTVSourceRemoteType_tv),
+                              @"fgc_tv":@(FGTVSourceRemoteType_fgcTv),
+                              @"dvd":@(FGTVSourceRemoteType_dvd),
+                              };
+        }
+    }
+    return remoteTypeDict;
+}
+
++ (FGTVSourceRemoteType)remoteTypeFromString:(NSString*)str {
+    NSNumber *n = [[FGTVSource remoteTypeDict] objectForKey:str];
+    if (n == nil) {
+        return FGTVSourceRemoteType_tv;
+    }
+    else {
+		return [n integerValue];
+	}
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>88492335-7626-49F5-A991-FF1D36B5FE98</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Declare global variable</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
