@@ -2,7 +2,7 @@
 
 My collection of useful Xcode code snippets! It has been a great time-saver for me so I decided to share it with everyone :)
 
-## Using these Snippets
+## How to use
 
 - Go to your Xcode user's code snippets directory. Create one if it doesn't exist.
   `open ~/Library/Developer/Xcode/UserData/CodeSnippets`
