@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIButton *b = [[UIButton alloc] initWithFrame:CGRectMake(0, 44, 44, 44)];
+    b.backgroundColor = [UIColor grayColor];
+    [b setTitle:@"Test" forState:UIControlStateNormal];
+    [b addTarget:self action:@selector(onTestButton:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:b];
+}
+
+- (void)onTestButton:(UIButton*) b {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0E2B6ACB-A94D-481A-A6BC-6964E0B6B4B4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>create a test button</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
