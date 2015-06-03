@@ -2,7 +2,7 @@
 
 My collection of useful Xcode code snippets! It has been a great time-saver for me so I decided to share it with everyone :)
 
-## Using these Snippets
+## How to use
 
 - Go to your Xcode user's code snippets directory. Create one if it doesn't exist.
   `open ~/Library/Developer/Xcode/UserData/CodeSnippets`
@@ -16,7 +16,7 @@ My collection of useful Xcode code snippets! It has been a great time-saver for 
 
 ## Creating your own Snippets
 
-In Xcode 4 or 5, open a workspace and toggle the right sidebar to be visible. On the bottom, there is a panel with four icons in the header. Click on the `{ }` icon to open the Code Snippets Library.
+In Xcode, open a workspace and toggle the right sidebar to be visible. On the bottom, there is a panel with four icons in the header. Click on the `{ }` icon to open the Code Snippets Library.
 
 Highlight your code block and drag it to the Code Snippet panel. Make sure to match the suggested platform, language, and completion scope.
 
