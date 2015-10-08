@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>delegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@class &lt;#class#&gt;;
+
+@protocol &lt;#class#&gt;Delegate &lt;NSObject&gt;
+- (void)method:(&lt;#class#&gt; *)controller;
+@end
+
+@interface &lt;#class#&gt; : UIViewController
+@property (nonatomic, weak) NSObject&lt;&lt;#class#&gt;Delegate&gt; *delegate;
+@end
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D2EFA889-BAD6-4C87-B651-C12C79844DED</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Delegate template</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
