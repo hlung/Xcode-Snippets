@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>import</string>
+	<string>#import</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#import "&lt;#File#&gt;.h"</string>
+	<string>#import &lt;&lt;#framework#&gt;/&lt;#header#&gt;.h&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E27DCD5F-E327-4E53-ACAA-495A75D09323</string>
+	<string>868C96E7-8288-43BA-B56A-FCDB7FDF94D3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>#import "file.h"</string>
+	<string>#import &lt;framework/header.h&gt;</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
